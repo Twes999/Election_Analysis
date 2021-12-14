@@ -35,10 +35,10 @@ with open(file_to_load) as election_data:
         candidate_name = row[2]
 
         if candidate_name not in candidate_options:
-          # Add the candidate name to the candidate list.
+            # Add the candidate name to the candidate list.
             candidate_options.append(candidate_name)
 
-           # 2. Begin tracking that candidate's vote count.
+            # 2. Begin tracking that candidate's vote count.
             candidate_votes[candidate_name] = 0
 
         # Add a vote to that candidate's count
@@ -76,3 +76,22 @@ with open(file_to_load) as election_data:
 
 # Print the candidate vote dictionary.
 print(candidate_votes)
+
+
+
+
+# The data we need to retrieve.
+# 1. The total number of votes cast
+369,711
+# 2. A complete list of candidates who received votes
+"Charles Casper Stockham", "Diana DeGette", "Raymon Anthony Doane"
+# 3. The percentage of votes each candidate won
+'Charles Casper Stockham: received 23.04854332167558% of the vote'
+'Diana DeGette: received 73.81224794501652% of the vote.'
+'Raymon Anthony Doane: received 3.1392087333079077% of the vote'
+# 4. The total number of votes each candidate won
+{'Charles Caspee Stockham' : 85213, 'Diana DeGette' : 272892, 'Raymon Anthony Doane' : 11606} 
+# 5. The winner of the election based on popular vote. 
+'Winner: Diana DeGette'
+'Winning Vote Count: 272,892'
+'Winning Percentage: 73.8%'
