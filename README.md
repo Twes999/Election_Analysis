@@ -16,6 +16,12 @@ A Colorado Board of Election employee has given me the following tasks to comple
 ## Summary
 The analysis of the election show that:
 - There were 369,711 votes cast in the election.
+- The county turnout results were:
+    - Jefferson County turnout was 10.5% of the votes and 38,855 number of votes.
+    - Denver County turnout was 82.8% of the votes and 306,055 number of votes.
+    - Arapahoe County turnout was 6.7% of the votes and 24,801 number of votes.
+- The county with the largest turnout was:
+    - Denver County
 - The candidates were:
     - Charles Casper Stockham
     - Diana DeGette
@@ -27,6 +33,5 @@ The analysis of the election show that:
 - The winner of the election was:
     - Diana DeGette, who receieved 73.8% of the vote and 272,892 number of votes.
 
-## Challenge Overview
-
 ## Challenge Summary
+With this script and a few modifications we can do an audit on a grander scale (national election) by adding in more candidates to the pool or a more in depth way by finding the results of each candidate in each county of a state. With modifications we can dive deep and see how a particular candidate did in a county like Jefferson County or in a different county of a different state if we expand analysis to a national level. 
